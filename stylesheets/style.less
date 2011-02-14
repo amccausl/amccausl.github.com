@@ -163,23 +163,23 @@ button {  width: auto; overflow: visible; }
 /**
  * Primary styles.
  *
- * Author: 
+ * Author: Alex McCausland
  */
 
+/* Define top rooted menu */
+nav.local {text-align: center; position:fixed; top:0px; width:100%; background-color:#b0c4de;}
+nav.local ul {float:center; padding-right:40px;}
+nav.local li {display:inline; list-style-type:none;}
+nav.local li:hover {background-color:#6995d2;}
+nav.local a {margin:5px; text-decoration:none; color:#000000;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Define toggleable seconds (CSS Tabs) */
+div.toggle-section:not(:target) {
+  display: none;
+}
+div.toggle-section:target {
+  display: block;
+}
 
 /**
  * Non-semantic helper classes: please define your styles before this section.
